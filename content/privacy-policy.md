@@ -9,7 +9,7 @@ menu:
 
 ## Who we are
 
-Our website address is: https://www.docstopdf.pro. THis is a test change
+Our website address is: https://www.docstopdf.pro.
 
 At Docs to PDF (“We”, “Us”, “Our”), we respect the client’s (“You”, “Your” or “User”) privacy and protect it seriously. The use of information collected through our service shall be limited to the purpose of providing the service for which our Clients have engaged us.
 
