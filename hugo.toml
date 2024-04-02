@@ -1,4 +1,0 @@
-baseURL = 'https://docstopdf.pro'
-languageCode = 'en-us'
-title = 'Docs to PDF'
-theme = "hello-friend-ng"
