@@ -74,11 +74,11 @@ ui:
   tokens:
     default:
       fonts:
-        sans: InterVariable
-        serif: InterVariable
-        heading: InterVariable
+        sans: Poppins
+        serif: Poppins
+        heading: Poppins
       colors:
-        default: rgb(16 16 16)
+        default: rgb(70 72 74)
         heading: rgb(0 0 0)
         muted: rgb(16 16 16 / 66%)
         bgPage: rgb(255 255 255)
