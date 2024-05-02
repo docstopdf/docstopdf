@@ -101,7 +101,7 @@ export const headerData = {
       href: '#',
     },*/
   ],
-  actions: [{ text: 'Install Free add-on', href: 'https://workspace.google.com/marketplace/app/pdf_to_docs/28755135712', target: '_blank' }],
+  actions: [{ text: 'Install Free add-on', href: 'https://workspace.google.com/marketplace/app/docs_to_pdf/302636103705?utm_source=docstopdf.pro&utm_medium=main_menu_install_free_add-on', target: '_blank' }],
 };
 
 export const footerData = {
