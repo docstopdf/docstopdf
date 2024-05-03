@@ -20,7 +20,7 @@ const { Content } = post;
 ---
 
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
-  <article>
+  <article class="prose-h2:text-2xl prose-h2:text-neutral-600 prose-p:text-base prose-ul:text-base prose-ol:text-base prose-p:leading-10 prose-ul:leading-10 prose-ol:leading-10">
     <header class={post.image ? '' : ''}>
       <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
         <p>
@@ -57,12 +57,12 @@ const { Content } = post;
       </div>
 
       <h1
-        class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
+        class="text-neutral-600 px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-3xl font-bold leading-tighter tracking-tighter font-heading"
       >
         {post.title}
       </h1>
       <p
-        class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-2xl text-muted dark:text-slate-400 text-justify"
+        class="max-w-3xl mx-auto mt-4 mb-8 px-4 sm:px-6 text-xl md:text-1xl text-muted dark:text-slate-400 text-justify"
       >
         {post.excerpt}
       </p>

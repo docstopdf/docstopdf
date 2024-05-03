@@ -7,6 +7,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 //import compress from 'astro-compress';
+import customToc from "astro-custom-toc";
 
 import astrowind from './src/integration';
 import { readingTimeRemarkPlugin, responsiveTablesRehypePlugin, lazyImagesRehypePlugin } from './src/utils/frontmatter.mjs';
@@ -19,7 +20,7 @@ export default defineConfig({
   output: 'static',
   integrations: [tailwind({
     applyBaseStyles: false
-  }), sitemap(), mdx(), icon({
+  }), sitemap(),customToc(), mdx(), icon({
     include: {
       tabler: ['*'],
       'flat-color-icons': ['template', 'gallery', 'approval', 'document', 'advertising', 'currency-exchange', 'voice-presentation', 'business-contact', 'database']
@@ -48,7 +49,7 @@ export default defineConfig({
   },
   markdown: {
     remarkPlugins: [readingTimeRemarkPlugin],
-    rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin]
+    rehypePlugins: [responsiveTablesRehypePlugin, lazyImagesRehypePlugin,]
   },
   vite: {
     resolve: {

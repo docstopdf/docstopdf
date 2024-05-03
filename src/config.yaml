@@ -4,7 +4,7 @@ site:
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: 
 
 # Default SEO metadata
 metadata:
@@ -78,8 +78,8 @@ ui:
         serif: Poppins
         heading: Poppins
       colors:
-        default: rgb(70 72 74)
-        heading: rgb(0 0 0)
+        default: rgb(16 16 16 / 66%)
+        heading: rgb(16 16 16 / 66%)
         muted: rgb(16 16 16 / 66%)
         bgPage: rgb(255 255 255)
         primary: rgb(39 114 237)
