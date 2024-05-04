@@ -11,7 +11,7 @@ import Metadata from '~/components/common/Metadata.astro';
 import SiteVerification from '~/components/common/SiteVerification.astro';
 import Analytics from '~/components/common/Analytics.astro';
 import BasicScripts from '~/components/common/BasicScripts.astro';
-
+import GrowMeMediavine from '~/components/common/GrowMeMediavine.astro';
 // Uncomment line below to activate View Transitions
 // import { ViewTransitions } from 'astro:transitions';
 
@@ -35,7 +35,7 @@ const { language, textDirection } = I18N;
     <Metadata {...metadata} />
     <SiteVerification />
     <Analytics />
-
+    <GrowMeMediavine />
     <script type="text/javascript">
       //Microsoft clarity tag
       (function (c, l, a, r, i, t, y) {
@@ -53,22 +53,6 @@ const { language, textDirection } = I18N;
       // End Microsoft clarity tag
     </script>
 
-    <script data-grow-initializer="">
-      !(function () {
-        window.growMe ||
-          ((window.growMe = function (e) {
-            window.growMe._.push(e);
-          }),
-          (window.growMe._ = []));
-        var e = document.createElement('script');
-        (e.type = 'text/javascript'),
-          (e.src = 'https://faves.grow.me/main.js'),
-          (e.defer = !0),
-          e.setAttribute('data-grow-faves-site-id', 'U2l0ZTo4YzFmOWMxMi0xNjM2LTQ1MmQtYTgyOS1kZmQwOTMyNTk5MzY=');
-        var t = document.getElementsByTagName('script')[0];
-        t.parentNode.insertBefore(e, t);
-      })();
-    </script>
     <!-- Uncomment line below to activate View Transitions -->
     <!-- <ViewTransitions fallback="swap" /> -->
   </head>
