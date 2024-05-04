@@ -21,7 +21,7 @@ To convert a single Google Doc as a PDF, you can use the native Google Docs feat
 2. **Access the File Menu** - Click on "File" in the menu bar at the top of your screen. 
 3. **Download as PDF** - Select "Download" and choose "**PDF Document (.pdf)**" from the options.
 
-![Convert Google Docs to PDF](src/assets/article_images/docs-to-pdf-download-screen.png)
+![Convert Google Docs to PDF](https://www.docstopdf.pro/docs-to-pdf-demo.gif)
 
 This action triggers Google Docs to convert your document and automatically download it to your default download folder on your computer. Likewise, you can download your Google Docs as other formats such as Word Documents, HTML, Rich text, Open Document format(.odt) etc.
 
