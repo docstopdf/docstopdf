@@ -40,7 +40,7 @@ These limitations can be time-consuming, especially if you need to convert multi
 * **Cross-Device Access** - You can access your PDFs from any device with an internet connection, as long as you're signed in to your Google Drive.
 * **Centralized Organization** - Keeping your PDFs in Drive alongside your original Google Docs helps maintain a central location for your documents.
 
-## Alternative: Using the Docs to PDF Add-on to Convert Google Docs to PDF
+## Alternative - Using the Docs to PDF Add-on to Convert Google Docs to PDF
 
 If you need to [export multiple Google Docs as PDFs](https://www.docstopdf.pro) or save them directly to your Google Drive, consider using the "Docs to PDF" add-on available in the Google Workspace Marketplace.
 
