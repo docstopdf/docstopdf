@@ -27,6 +27,18 @@ This action triggers Google Docs to convert your document and automatically down
 
 **Note:** This method only works for a single document at a time.
 
+## Using the Print Function
+
+While the "Download as PDF" option is the simplest method, the "Print" function offers an alternative, especially for large Google Docs. You can also use this option to **export only specific pages of a Google Doc to PDF**.
+
+Here is how to print the Google Docs as PDF. 
+
+1. Open your Google Doc.
+2. Click on "File" > "Print".
+3. Under "Destination," select "Save as PDF".
+4. Customize Settings (Optional) -  While the default settings will usually work well, you can further customize them if needed.  The available options may vary slightly depending on your browser, but you might be able to adjust things like page size, orientation, and margins etc.
+5. Click "Save".
+
 ## Limitations of Google Docs PDF Download Functionality
 
 While Google Docs lets you [download a single document as a PDF](https://support.google.com/docs/answer/49114?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cdownload-a-copy-of-a-file), it currently lacks two key functionalities:
@@ -40,7 +52,7 @@ These limitations can be time-consuming, especially if you need to convert multi
 * **Cross-Device Access** - You can access your PDFs from any device with an internet connection, as long as you're signed in to your Google Drive.
 * **Centralized Organization** - Keeping your PDFs in Drive alongside your original Google Docs helps maintain a central location for your documents.
 
-## Alternative - Using the Docs to PDF Add-on to Convert Google Docs to PDF
+## Using the Docs to PDF Add-on to Convert Google Docs to PDF (Bulk Conversion)
 
 If you need to [export multiple Google Docs as PDFs](https://www.docstopdf.pro) or save them directly to your Google Drive, consider using the "Docs to PDF" add-on available in the Google Workspace Marketplace.
 
