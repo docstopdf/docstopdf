@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Convert Google Docs to PDF
-    template: 'Convert Google Docs to PDF'
-  description: "Convert Google Docs to PDF"
+    default: Word to PDF
+    template: Word to PDF
+  description: Convert microsoft word or Google Docs to PDF
   robots:
     index: true
     follow: true
