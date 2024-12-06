@@ -38,6 +38,10 @@ export const headerData = {
       ],
     },
     {
+        text: 'Pricing',
+        href: getPermalink('/pricing')
+      },
+    {
         text: 'Contact',
         href: getPermalink('/contact')
       },

@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Word to PDF
-    template: Word to PDF
-  description: Convert microsoft word or Google Docs to PDF
+    default: Google Docs to PDF
+    template: Google Docs to PDF
+  description: Convert Google Docs to PDF with tabs export, convert Word to PDF
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Docs to PDF
+    site_name: Google Docs to PDF
     images:
       - url: '~/assets/images/default.png'
         width: 1200
